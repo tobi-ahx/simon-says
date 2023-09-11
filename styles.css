@@ -1,0 +1,71 @@
+body {
+  text-align: center;
+  background-color: rgb(15 23 42);
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+#level-title {
+  font-size: 2.5rem;
+  margin: 5%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+ 
+}
+
+.buttons {
+  display: flex;
+}
+
+.rules {
+  text-align: center; /* Center-align text within the .rules div */
+  max-width: 30rem;
+  padding: 2rem; /* Add padding for better readability */
+}
+
+.btn {
+  margin: 1rem;
+  width: 150px;
+  height: 150px;
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+  transform: scale(1.05);
+}
+
+.game-over {
+  background-color: rgba(255, 0, 0, 0.8);
+}
+
+.red {
+  background-color: #ff3333;
+}
+
+.green {
+  background-color: #33cc33;
+}
+
+.blue {
+  background-color: #3399ff;
+}
+
+.yellow {
+  background-color: #ffcc00;
+}
+
+.pressed {
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
+  transform: scale(0.95);
+}
