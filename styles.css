@@ -21,6 +21,7 @@ body {
 
 .buttons {
   display: flex;
+  margin-top: 8rem;
 }
 
 .rules {
@@ -68,4 +69,22 @@ body {
 .pressed {
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.5);
   transform: scale(0.95);
+}
+
+@media (max-width: 768px) {
+  .container {
+    max-width: 90%; /* Adjust the maximum width as needed for your design */
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+.buttons {
+  margin-top: 8rem;
+}
+
+
+  
+  .rules {
+    text-align: center;
+  }
 }
